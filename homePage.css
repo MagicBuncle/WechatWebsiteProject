@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+.nav li {
+	display: inline;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+
+}
+.nav .pull-left {
+	text-align:left;
+}
+
+.function .container .thumbnail {
+	display: inline;
+}
+
+img {
+	width:240px;
+	height:240px;
+	padding:30px;	
+}
+
+table {
+	margin-left:auto;
+	margin-right:auto;
+}
+.discription p {
+	text-align:center;
+	margin-top:auto;
+	margin-bottom:auto;
+}
