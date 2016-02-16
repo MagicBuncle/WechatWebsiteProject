@@ -9,16 +9,17 @@
 	text-align:left;
 }
 
+
 .function .container .thumbnail {
 	display: inline;
 }
 
-img {
+.function img {
 	width:240px;
 	height:240px;
 	padding:10px;	
 }
-img:hover {
+.function img:hover {
 	width:240px;
 	height:240px;
 	padding:10px;	
