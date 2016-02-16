@@ -36,14 +36,20 @@
 <!----search tool bar--->
 <div class="search">
 	<div class="container">
-    <h3>此处是搜索功能</h3>
+    <!--<h3>此处是搜索功能</h3>-->
+    <form method="get" id="searhform" action="http://www.google.com">
+    <fieldset class="search">
+    	<input type="text" class="box" name="s" id="s" class="inputText" placeholder="请输入关键词" x-webkit-speech>
+        <button class="btn" title="SEARCH"></botton>
+        </fieldset>
+        </form>
 	</div>
 </div>
 
 <!---resource show bar--->
 <div class="jumbotron">
 	<div class="container">
-    	<h2>我叫资源君</h2>
+    	<!--<h2>我叫资源君</h2>-->
         
         <iframe width="560" height="315" src="https://www.youtube.com/embed/9qKd35BYO8c" frameborder="0" allowfullscreen></iframe>
         </div>
@@ -78,12 +84,14 @@
 		</table>
     	-->
         <div class="row">
+        <a href="http://www.google.com">
         	<div class="col-md-4">
             	<div class="thumbnail">
                 	<img src="http://i11.tietuku.com/e2496724ec63b8f0.png">
                     <p>function1</p>
                 </div>               
             </div>
+            </a>
             <div class="col-md-4">
             	<div class="thumbnail">
                 	<img src="http://i13.tietuku.com/aee8149d9fc571b7.png">

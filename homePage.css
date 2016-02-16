@@ -58,7 +58,45 @@ table {
 .resource {
 	background-color: #BBBBBB；
 }
+
 .thumbnail p {
 	text-align:center;
 	font-size:20px;
 }
+
+fieldset .search hover {
+	background: #a8a8a8；
+}
+
+.search input, .search button {
+    border: none;
+    float: left;
+}
+.search input.box {
+    height: 28px;
+    width: 200;
+    margin-right: 0px;
+    padding-right: 0px;
+    background: #e0e0e0;
+    margin: 1px;
+}
+.search input.box:focus {
+    background: #e8e8e8 ;
+    outline: none;
+}
+.search button.btn {
+    border: none;
+    width: 28px;
+    height: 28px;
+    margin: 0px auto;
+    margin: 1px;
+    background: url(http://sandbox.runjs.cn/uploads/rs/339/livk7pl5/search_blue.png) no-repeat top right;
+}
+.search button.btn:hover {
+    background: url(http://sandbox.runjs.cn/uploads/rs/339/livk7pl5/search_black.png) no-repeat bottom right;
+}
+
+
+
+
+
