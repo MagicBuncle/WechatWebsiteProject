@@ -9,29 +9,53 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" href="homePage.css">
-
 </head>
 
 <body>
 
 <!---homepage navigation bar--->
+<!--
 <div class="nav">
     <div class="container">
         <ul class="pull-left">
-          <li><a href="#">logo</a></li>
-          <li><a href="#">首页</a></li>
+        	<li class="dropdown"><a href="#" class="dropdown-toggle"> 导航 <em class="glyphicon glyphicon-th-list"></em> </a>
+        	  <ul class="dropdown-menu">
+			    	<li><a href="#">科目a</a></li>
+			    	<li><a href="#">科目b</a></li>
+			    	<li><a href="#">科目c</a></li>
+		        </ul>
+            </li>
+        	<li><a href="#"><img src="http://gradschool.umbc.edu/files/2015/09/applynowfinalgraduation1.png"></a></li>
+           
         </ul>
 
         <ul class="pull-right">
           <li><a href="#">登录</a></li>
           <li><a href="#">注册</a></li>
-        </ul>
+		</ul>
   	</div>
 </div>
+-->
+<header class="container">
+	<div class="row">
+    	<section class="col-md-10">
+        	导航
+        	<em class="glyphicon glyphicon-th-list"></em>
+        	<a href="#"><img src="http://gradschool.umbc.edu/files/2015/09/applynowfinalgraduation1.png"></a></li>
+        </section>
+        <section class="col-md-2">
+        	<a href="#">登录</a></li>
+        	<a href="#">注册</a></li>
+        </section>
+    </div>
+</header>
 
 <!----search tool bar--->
 <div class="search">
@@ -61,28 +85,6 @@
 	<div class="container">
     	<h2>我叫服务君</h2>
         <p>我提供六项用户服务</p>
-        <!--
-        <table border="1">
-            <tr>
-            <td>
-            <img src="http://i11.tietuku.com/e2496724ec63b8f0.png">
-            </td>
-            <td>
-            <img src="http://i11.tietuku.com/e2496724ec63b8f0.png">
-            </td>
-            <td>
-            <img src="http://i11.tietuku.com/e2496724ec63b8f0.png">
-            </td>
-            </tr>
-            <tr>
-            <td class="discription">
-            <p>xxxxxxxxxxx说明xxxxxxxxxx</p>
-			</td>
-            <td>row 2, cell 2</td>
-            <td>row 1, cell 3</td>
-            </tr>
-		</table>
-    	-->
         <div class="row">
         <a href="http://www.google.com">
         	<div class="col-md-4">
@@ -134,6 +136,6 @@
 <div class="compInfo">
 
 </div>
-
+<script src="homepage.js"></script>
 </body>
 </html>
