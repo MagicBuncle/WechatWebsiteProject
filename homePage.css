@@ -16,6 +16,7 @@
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 
 }
+<<<<<<< Updated upstream
 
 .nav .pull-right {
 	padding-top:16px;
@@ -26,7 +27,7 @@ header .row {
 	display:flex;
 	align-items:center;
 	font-size:16px;
-	}
+}
 
 header img {
 	height:50px;
@@ -43,6 +44,14 @@ header a {
 	color:black;
 }
 
+.nav .pull-left {
+	/*text-align:left;*/
+}
+
+.nav .pull-right {
+>>>>>>> Stashed changes
+}
+
 .jumbotron {
 	background-color: black;
 }
@@ -50,11 +59,12 @@ header a {
 body {
 	background-color: #F5F5F5;
 }
+
 .function .container .thumbnail {
 	display: inline;
 }
 
-.function .container .col-md-4{
+.function .container .col-md-4 {
 	border: 10px #F5F5F5 solid;
 	background-color: #FFFFFF;
 }
