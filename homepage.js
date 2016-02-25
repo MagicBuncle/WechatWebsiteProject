@@ -1,7 +1,26 @@
 var main = function() {
-  $(".dropdown-toggle").click(function() {
-    $(".dropdown-menu").toggle();
+  /* Push the body and the nav over by 285px over */
+  $('.glyphicon glyphicon-th-list').click(function() {
+    $('.container.col-md-2').animate({
+      left: "0px"
+    }, 200);
+
+    $('body').animate({
+      left: "285px"
+    }, 200);
+  });
+
+  /* Then push them back */
+  $('.icon-close').click(function() {
+    $('.container .col-md-2').animate({
+      left: "-285px"
+    }, 200);
+
+    $('body').animate({
+      left: "0px"
+    }, 200);
   });
 };
+
 
 $(document).ready(main);
